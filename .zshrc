@@ -126,6 +126,7 @@ alias gm='gcalcli calm'
 alias gw='gcalcli calw'
 
 alias muz='sudo sh ~/bin/muz.sh '
+alias emz='em /home/bossip/.zshrc; sourcez' 
 alias joom='sudo service mysqld start; apache; firefox 0.0.0.0'
 alias sourcez='source ~/.zshrc'
 alias update-grub='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
