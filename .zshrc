@@ -133,7 +133,7 @@ alias update-grub='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
 
 # dépôts git - gitlab
 alias gpush='git push git@github.com:bop/libre.git'
-alias gitspa='git push git@gitlab.com:baptiste.ossipow/learn.git'
+
 # Alias Git
 git config --global alias.last 'log -1 HEAD'
 git config --global alias.unstage 'reset HEAD --'
