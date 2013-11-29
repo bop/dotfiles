@@ -26,13 +26,6 @@ ZSH_THEME_GIT_PROMPT_SUFFIX=""
 # Format for parse_git_dirty()
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$RED%}(*)"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
-BOP_GIT_CLEAN_COLOR="%{$fg[green]%}"
-BOP_GIT_DIRTY_COLOR="%{$fg[red]%}"
-BOP_GIT_AHEAD_COLOR="%{$fg[yellow]%}"
-
-ZSH_THEME_GIT_PROMPT_CLEAN=" $BOP_GIT_CLEAN_COLOR✓"
-ZSH_THEME_GIT_PROMPT_DIRTY=" $BOP_GIT_DIRTY_COLOR✗"
-
 
 
 # Format for git_prompt_status()
