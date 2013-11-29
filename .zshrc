@@ -56,11 +56,6 @@ setopt HIST_NO_STORE
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="bop"
-#"juanghurtado"
-#"crunch"
-#"gianu"
-#"af-magic"
-
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
