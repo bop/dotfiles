@@ -71,7 +71,7 @@ use_titlebar = false
 
 -- Shifty configured tags.
 shifty.config.tags = {
-	Django = {
+   Debian = {
         layout    = awful.layout.suit.tile.left,
         mwfact    = 0.60,
         exclusive = false,
@@ -187,6 +187,7 @@ shifty.config.apps = {
         match = {
 	   "sakura",
         },
+	tag = "Debian",
         honorsizehints = false,
         slave = true,
     },
