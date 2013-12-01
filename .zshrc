@@ -142,6 +142,16 @@ alias mad='sshfs xpertise@ssh.alwaysdata.com: ~/alwaysd; thunar ~/alwaysd/'
 alias umad='fusermount -u ~/alwaysd'
 
 
+# Suffixes aliases (just type name file to open it with ...)
+alias -s tex=emacs
+alias -s html=chromium-browser
+alias -s org=emacs
+
+# Same as before, far more complicated : PDF viewer (just type 'file.pdf')
+if [[ -x `which evince` ]]; then
+    alias -s 'pdf=evince'
+
+fi
 
 
 export PYTHONPATH=~/.virtualenvs:$PYTHONPATH
