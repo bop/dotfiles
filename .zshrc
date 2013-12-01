@@ -140,6 +140,7 @@ git config --global alias.unstage 'reset HEAD --'
 
 alias mad='sshfs xpertise@ssh.alwaysdata.com: ~/alwaysd; thunar ~/alwaysd/'
 alias umad='fusermount -u ~/alwaysd'
+alias dot='git push git@github.com:bop/dotfiles.git'
 
 
 # Suffixes aliases (just type name file to open it with ...)
