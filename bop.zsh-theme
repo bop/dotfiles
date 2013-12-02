@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------
-# Juan G. Hurtado oh-my-zsh theme
+# bop oh-my-zsh theme
 # (Needs Git plugin for current_branch method)
 # ------------------------------------------------------------------------
 
